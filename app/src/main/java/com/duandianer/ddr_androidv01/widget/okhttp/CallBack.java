@@ -2,7 +2,7 @@
  * CopyRright (c)2016:   <短点>
  * Project:              <短点Android>
  * Module ID:            <>
- * Comments:  <常用的HTTP请求>
+ * Comments:  <HTTP请求的回调接口>
  * JDK version used:      <JDK1.6>
  * Author：        <@奔跑的MT>
  * Create Date：  <2016-12-03>
