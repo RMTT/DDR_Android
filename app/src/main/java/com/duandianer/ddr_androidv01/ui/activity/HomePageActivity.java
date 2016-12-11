@@ -29,6 +29,7 @@ import com.duandianer.ddr_androidv01.R;
 import com.duandianer.ddr_androidv01.ui.fragment.Find_fragment;
 import com.duandianer.ddr_androidv01.ui.fragment.My_fragment;
 import com.duandianer.ddr_androidv01.ui.fragment.Selected_fragment;
+import com.duandianer.ddr_androidv01.widget.toolbar.DDR_Toolbar;
 
 public class HomePageActivity extends BaseActivity {
 
@@ -39,7 +40,7 @@ public class HomePageActivity extends BaseActivity {
     private TabHost.TabSpec mFind;
     private TabHost.TabSpec mMy;
 
-    private Toolbar mToolbar;
+    private DDR_Toolbar mToolbar;
 
     @Override
     public void onCreate(Bundle savedInstanceState) {
@@ -48,9 +49,7 @@ public class HomePageActivity extends BaseActivity {
         setContentView(R.layout.activity_home_page);
 
 
-        mToolbar = (Toolbar) findViewById(R.id.toolbar);
-        mToolbar.setTitle("");
-        setSupportActionBar(mToolbar);
+        mToolbar = (DDR_Toolbar) findViewById(R.id.toolbar);
 
 
         mFragmentTabHost = (FragmentTabHost) findViewById(android.R.id.tabhost);
