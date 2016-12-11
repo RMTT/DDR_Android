@@ -7,8 +7,8 @@
         <item name="colorPrimaryDark">@color/colorPrimaryDark</item>
         <item name="colorAccent">@color/colorAccent</item>
     </style>
-    <style name="DDRToolbar" parent="">
-        <item name="android:windowNoTitle">true</item>
+    <style name="DDRToolbar">
+        <item name="windowNoTitle">true</item>
     </style>
 
 </resources>
