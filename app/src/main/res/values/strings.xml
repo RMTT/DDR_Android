@@ -3,4 +3,6 @@
     <string name="icon_selected">精选</string>
     <string name="icon_find">发现</string>
     <string name="icon_my">我的</string>
+    <string name="appwidget_text">EXAMPLE</string>
+    <string name="add_widget">Add widget</string>
 </resources>

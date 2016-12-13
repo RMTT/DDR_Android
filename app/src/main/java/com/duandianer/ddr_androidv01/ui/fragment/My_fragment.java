@@ -20,11 +20,15 @@ import android.view.LayoutInflater;
 import android.view.View;
 import android.view.ViewGroup;
 
-/**
- * Created by Administrator on 12/8/2016.
- */
+import com.duandianer.ddr_androidv01.R;
 
-public class My_fragment extends Fragment {
+
+public class My_fragment extends BaseTabFragment {
+    @Override
+    protected View CreatView() {
+        return LayoutInflater.from(getActivity()).inflate(R.layout.my_fragment_layout,null);
+    }
+
     @Nullable
     @Override
     public View onCreateView(LayoutInflater inflater, @Nullable ViewGroup container, @Nullable Bundle savedInstanceState) {
