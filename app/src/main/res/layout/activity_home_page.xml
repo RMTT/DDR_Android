@@ -2,7 +2,6 @@
 <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    xmlns:app="http://schemas.android.com/apk/res-auto"
     android:orientation="vertical">
 
     <com.duandianer.ddr_androidv01.widget.toolbar.DDR_Toolbar
@@ -56,8 +55,8 @@
                 android:id="@android:id/tabs"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
-                android:layout_marginBottom="2dp"
-                android:layout_marginTop="5dp" />
+                android:layout_marginBottom="@dimen/icon_layout_marginBottom"
+                android:layout_marginTop="@dimen/icon_layout_marginTop" />
         </LinearLayout>
 
     </android.support.v4.app.FragmentTabHost>

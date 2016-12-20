@@ -1,13 +1,19 @@
 <?xml version="1.0" encoding="utf-8"?>
-<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+<com.duandianer.ddr_androidv01.ui.view.SelectedRefreshView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/select_refresh_view"
     android:layout_width="match_parent"
-    android:layout_height="match_parent"
-    android:orientation="vertical">
+    android:layout_height="match_parent">
+
+    <com.duandianer.ddr_androidv01.ui.view.SelectedRefreshHeaderView
+        android:id="@+id/swipe_refresh_header"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="@dimen/refresh_margin"
+        android:layout_marginTop="@dimen/refresh_margin"
+        android:gravity="center" />
 
     <com.duandianer.ddr_androidv01.ui.view.SelectedView
-        android:id="@+id/selected_view_content"
+        android:id="@+id/swipe_target"
         android:layout_width="match_parent"
-        android:layout_height="match_parent">
-
-    </com.duandianer.ddr_androidv01.ui.view.SelectedView>
-</LinearLayout>
+        android:layout_height="match_parent" />
+</com.duandianer.ddr_androidv01.ui.view.SelectedRefreshView>

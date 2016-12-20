@@ -5,4 +5,6 @@
     <color name="colorAccent">#FF4081</color>
     <color name="color_text_selected">#3B3B3B</color>
     <color name="color_text_unselected">#ABABAB</color>
+    <color name="color_video_title">#ffffff</color>
+    <color name="color_video_info">#CDC9C9</color>
 </resources>

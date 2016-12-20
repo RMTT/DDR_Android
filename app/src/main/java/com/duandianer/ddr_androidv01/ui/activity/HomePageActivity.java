@@ -23,9 +23,11 @@ import android.widget.TabHost;
 import android.widget.TabWidget;
 
 import com.duandianer.ddr_androidv01.R;
+import com.duandianer.ddr_androidv01.data.video.VideoSet;
 import com.duandianer.ddr_androidv01.ui.fragment.Find_fragment;
 import com.duandianer.ddr_androidv01.ui.fragment.My_fragment;
 import com.duandianer.ddr_androidv01.ui.fragment.Selected_fragment;
+import com.duandianer.ddr_androidv01.widget.fresco.FrescoHelper;
 import com.duandianer.ddr_androidv01.widget.toolbar.DDR_Toolbar;
 import com.duandianer.ddr_androidv01.widget.toolbar.ToolbarHelper;
 
@@ -52,6 +54,8 @@ public class HomePageActivity extends BaseActivity {
         setToolbar();
         initFragmentHost();
         initTabs();
+
+        VideoSet.Test();
     }
 
     /**
