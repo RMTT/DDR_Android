@@ -18,4 +18,6 @@ public class SelectedView extends RecyclerView {
     public SelectedView(Context context, @Nullable AttributeSet attrs, int defStyle) {
         super(context, attrs, defStyle);
     }
+
+
 }

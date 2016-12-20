@@ -2,7 +2,7 @@
  * CopyRright (c)2016:   <短点>
  * Project:              <短点Android>
  * Module ID:            <>
- * Comments:  <主页Activity>
+ * Comments:  <个人中心Fragment>
  * JDK version used:      <JDK1.6>
  * Author：        <@奔跑的MT>
  * Create Date：  <2016-12-03>
@@ -23,11 +23,7 @@ import android.view.ViewGroup;
 import com.duandianer.ddr_androidv01.R;
 
 
-public class My_fragment extends BaseTabFragment {
-    @Override
-    protected View CreatView() {
-        return LayoutInflater.from(getActivity()).inflate(R.layout.my_fragment_layout,null);
-    }
+public class My_fragment extends Fragment {
 
     @Nullable
     @Override

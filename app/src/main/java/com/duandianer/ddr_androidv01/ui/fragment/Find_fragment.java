@@ -2,7 +2,7 @@
  * CopyRright (c)2016:   <短点>
  * Project:              <短点Android>
  * Module ID:            <>
- * Comments:  <主页Activity>
+ * Comments:  <发现Fragment>
  * JDK version used:      <JDK1.6>
  * Author：        <@奔跑的MT>
  * Create Date：  <2016-12-03>
@@ -20,14 +20,8 @@ import android.view.LayoutInflater;
 import android.view.View;
 import android.view.ViewGroup;
 
-import com.duandianer.ddr_androidv01.R;
 
-
-public class Find_fragment extends BaseTabFragment {
-    @Override
-    protected View CreatView() {
-        return LayoutInflater.from(getActivity()).inflate(R.layout.find_fragment_layout,null);
-    }
+public class Find_fragment extends Fragment {
 
     @Nullable
     @Override
