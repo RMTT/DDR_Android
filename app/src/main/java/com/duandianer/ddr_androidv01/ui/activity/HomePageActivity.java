@@ -27,7 +27,6 @@ import com.duandianer.ddr_androidv01.data.video.VideoSet;
 import com.duandianer.ddr_androidv01.ui.fragment.Find_fragment;
 import com.duandianer.ddr_androidv01.ui.fragment.My_fragment;
 import com.duandianer.ddr_androidv01.ui.fragment.Selected_fragment;
-import com.duandianer.ddr_androidv01.widget.fresco.FrescoHelper;
 import com.duandianer.ddr_androidv01.widget.toolbar.DDR_Toolbar;
 import com.duandianer.ddr_androidv01.widget.toolbar.ToolbarHelper;
 
@@ -79,6 +78,7 @@ public class HomePageActivity extends BaseActivity {
         mFragmentTabHost.addTab(mMy, My_fragment.class, null);
         mTabWidget = mFragmentTabHost.getTabWidget();
         mTabWidget.setDividerDrawable(null);
+        mTabWidget.setStripEnabled(false);
     }
 
     /**
