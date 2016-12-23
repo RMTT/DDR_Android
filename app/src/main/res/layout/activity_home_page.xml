@@ -49,7 +49,7 @@
                 android:layout_width="match_parent"
                 android:layout_height="0dp"
                 android:layout_weight="1"
-                android:background="@color/colorPrimaryDark" />
+                android:background="@color/color_tabcontent_background" />
 
             <TabWidget
                 android:id="@android:id/tabs"

@@ -7,4 +7,12 @@
     <color name="color_text_unselected">#ABABAB</color>
     <color name="color_video_title">#ffffff</color>
     <color name="color_video_info">#CDC9C9</color>
+    <color name="color_class_title">#ffffff</color>
+    <color name="my_page_background">#ffffff</color>
+    <color name="color_tab_background">#ffffff</color>
+    <color name="color_tabcontent_background">#0e1014</color>
+    <color name="color_my_username_text">#010101</color>
+    <color name="color_my_tab_text">#010101</color>
+    <color name="my_margin_background">#F8F8F8</color>
+    <color name="colror_my_options">#000000</color>
 </resources>

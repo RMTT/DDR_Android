@@ -16,16 +16,46 @@ package com.duandianer.ddr_androidv01.ui.fragment;
 import android.os.Bundle;
 import android.support.annotation.Nullable;
 import android.support.v4.app.Fragment;
+import android.support.v7.widget.GridLayoutManager;
 import android.view.LayoutInflater;
 import android.view.View;
 import android.view.ViewGroup;
 
+import com.duandianer.ddr_androidv01.R;
+import com.duandianer.ddr_androidv01.data.classification.ClassificationMessage;
+import com.duandianer.ddr_androidv01.ui.adapter.FindViewAdapter;
+import com.duandianer.ddr_androidv01.ui.view.FindView;
+
 
 public class Find_fragment extends Fragment {
+
+    private View mView;
+
+    private FindView mContentView;
+    private FindViewAdapter mAdapter;
 
     @Nullable
     @Override
     public View onCreateView(LayoutInflater inflater, @Nullable ViewGroup container, @Nullable Bundle savedInstanceState) {
-        return super.onCreateView(inflater, container, savedInstanceState);
+        ClassificationMessage.Test();
+        if (mView == null) {
+            mView = inflater.inflate(R.layout.find_fragment_layout, null);
+            mContentView = (FindView) mView.findViewById(R.id.find_content);
+            setContentView();
+            updateUI();
+        }
+        ViewGroup parent = (ViewGroup) mView.getParent();
+        if (parent != null)
+            parent.removeView(mView);
+        return mView;
+    }
+
+    private void setContentView() {
+        mContentView.setLayoutManager(new GridLayoutManager(getActivity(), 2));
+    }
+
+    private void updateUI() {
+        mAdapter = new FindViewAdapter(getActivity());
+        mContentView.setAdapter(mAdapter);
     }
 }

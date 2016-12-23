@@ -5,4 +5,11 @@
     <string name="icon_my">我的</string>
     <string name="appwidget_text">EXAMPLE</string>
     <string name="add_widget">Add widget</string>
+    <string name="my_favorite">收藏</string>
+    <string name="my_download">下载</string>
+    <string name="my_history">足迹</string>
+    <string name="my_info">我的资料</string>
+    <string name="my_user_setting">账户设置</string>
+    <string name="my_common_setting">通用设置</string>
+    <string name="my_about_ddr">关于短点</string>
 </resources>
