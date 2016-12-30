@@ -13,18 +13,18 @@ http://developer.android.com/guide/topics/appwidgets/index.html#CreatingLayout
     <dimen name="item_selected_height">178dp</dimen>
     <dimen name="video_title_text_size">14dp</dimen>
     <dimen name="video_info_text_size">10dp</dimen>
-    <dimen name="icon_layout_marginBottom">2dp</dimen>
-    <dimen name="icon_layout_marginTop">5dp</dimen>
+    <dimen name="icon_layout_marginBottom">6dp</dimen>
+    <dimen name="icon_layout_marginTop">10dp</dimen>
     <dimen name="refresh_margin">7dp</dimen>
     <dimen name="find_item_width">180dp</dimen>
     <dimen name="find_item_height">181dp</dimen>
     <dimen name="find_item_title_text_size">15dp</dimen>
-    <dimen name="my_photo_width">54dp</dimen>
-    <dimen name="my_photo_height">54dp</dimen>
-    <dimen name="my_username_text_size">12dp</dimen>
+    <dimen name="my_photo_width">64dp</dimen>
+    <dimen name="my_photo_height">64dp</dimen>
+    <dimen name="my_username_text_size">15dp</dimen>
     <dimen name="user_photo_margin_top">30dp</dimen>
     <dimen name="my_username_margin_top">17dp</dimen>
-    <dimen name="my_username_margin_bottom">41dp</dimen>
+    <dimen name="my_username_margin_bottom">25dp</dimen>
     <dimen name="my_tab_margin">65dp</dimen>
     <dimen name="my_margin_part">8dp</dimen>
     <dimen name="my_margin_options">1dp</dimen>
@@ -33,4 +33,5 @@ http://developer.android.com/guide/topics/appwidgets/index.html#CreatingLayout
     <dimen name="my_options_text_size">12dp</dimen>
     <dimen name="my_options_icon_with_text">10dp</dimen>
     <dimen name="my_options_icon_margin_left">12dp</dimen>
+    <dimen name="my_header_height">239dp</dimen>
 </resources>

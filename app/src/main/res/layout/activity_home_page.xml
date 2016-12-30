@@ -55,8 +55,7 @@
                 android:id="@android:id/tabs"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
-                android:layout_marginBottom="@dimen/icon_layout_marginBottom"
-                android:layout_marginTop="@dimen/icon_layout_marginTop" />
+                android:background="@color/color_tab_background" />
         </LinearLayout>
 
     </android.support.v4.app.FragmentTabHost>
