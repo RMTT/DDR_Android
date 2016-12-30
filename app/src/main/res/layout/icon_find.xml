@@ -8,12 +8,14 @@
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_gravity="center"
+        android:layout_marginTop="@dimen/icon_layout_marginTop"
         android:background="@drawable/icon_find" />
 
     <TextView
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_gravity="center"
+        android:layout_marginBottom="@dimen/icon_layout_marginBottom"
         android:text="@string/icon_find"
         android:textColor="@drawable/icon_text_select"
         android:textSize="10dp" />
