@@ -34,4 +34,9 @@ http://developer.android.com/guide/topics/appwidgets/index.html#CreatingLayout
     <dimen name="my_options_icon_with_text">10dp</dimen>
     <dimen name="my_options_icon_margin_left">12dp</dimen>
     <dimen name="my_header_height">239dp</dimen>
+    <dimen name="launch_content">22dp</dimen>
+    <dimen name="launch_content_to_top">245dp</dimen>
+    <dimen name="launch_copyright">10dp</dimen>
+    <dimen name="launch_copyright_to_bottom">12dp</dimen>
+    <dimen name="launch_copyright_to_logo">19dp</dimen>
 </resources>

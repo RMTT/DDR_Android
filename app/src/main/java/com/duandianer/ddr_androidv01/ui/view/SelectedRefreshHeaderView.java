@@ -41,31 +41,31 @@ public class SelectedRefreshHeaderView extends LinearLayout implements SwipeRefr
 
     @Override
     public void onRefresh() {
-        Log.d(TAG,"onRefresh");
+        Log.d(TAG, "onRefresh");
     }
 
     @Override
     public void onPrepare() {
-        Log.d(TAG,"onPrepare");
+        Log.d(TAG, "onPrepare");
     }
 
     @Override
     public void onMove(int i, boolean b, boolean b1) {
-        Log.d(TAG,"onMove   "+i);
+        Log.d(TAG, "onMove   " + i);
     }
 
     @Override
     public void onRelease() {
-        Log.d(TAG,"onRelease");
+        Log.d(TAG, "onRelease");
     }
 
     @Override
     public void onComplete() {
-        Log.d(TAG,"onComplete");
+        Log.d(TAG, "onComplete");
     }
 
     @Override
     public void onReset() {
-        Log.d(TAG,"onReset");
+        Log.d(TAG, "onReset");
     }
 }

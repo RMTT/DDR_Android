@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <com.facebook.drawee.view.SimpleDraweeView
+        android:id="@+id/launch_background"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent" />
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <TextView
+            android:id="@+id/launch_content"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentTop="true"
+            android:layout_centerHorizontal="true"
+            android:layout_marginTop="@dimen/launch_content_to_top"
+            android:text="@string/launch_content"
+            android:textColor="@color/launch_content"
+            android:textSize="@dimen/launch_content" />
+
+        <ImageView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignBottom="@+id/launch_copyright"
+            android:layout_centerHorizontal="true"
+            android:layout_marginBottom="@dimen/launch_copyright_to_logo"
+            android:src="@mipmap/logo_launch" />
+
+        <TextView
+            android:id="@+id/launch_copyright"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentBottom="true"
+            android:layout_centerHorizontal="true"
+            android:layout_marginBottom="@dimen/launch_copyright_to_bottom"
+            android:text="@string/launch_copyright"
+            android:textColor="@color/launch_copyright"
+            android:textSize="@dimen/launch_copyright" />
+
+    </RelativeLayout>
+</FrameLayout>

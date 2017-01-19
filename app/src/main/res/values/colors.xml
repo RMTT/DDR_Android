@@ -15,4 +15,6 @@
     <color name="color_my_tab_text">#000000</color>
     <color name="my_content_background">#ffffff</color>
     <color name="colror_my_options">#000000</color>
+    <color name="launch_content">#FFFFFF</color>
+    <color name="launch_copyright">#FFFFFF</color>
 </resources>

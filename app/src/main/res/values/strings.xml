@@ -12,4 +12,6 @@
     <string name="my_user_setting">账户设置</string>
     <string name="my_common_setting">通用设置</string>
     <string name="my_about_ddr">关于短点</string>
+    <string name="launch_content">短点之内\u0020\u0020\u0020\u0020\u0020\u0020\u0020世界之外</string>
+    <string name="launch_copyright">Design by ACGdoge</string>
 </resources>

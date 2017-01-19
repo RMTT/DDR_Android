@@ -19,7 +19,6 @@ import android.support.v7.widget.Toolbar;
 import android.util.AttributeSet;
 
 
-
 public class DDR_Toolbar extends Toolbar {
 
     private Toolbar mToolbar;
@@ -35,5 +34,6 @@ public class DDR_Toolbar extends Toolbar {
     public DDR_Toolbar(Context context, AttributeSet attrs, int defStyleAttr) {
         super(context, attrs, defStyleAttr);
     }
+
 
 }
