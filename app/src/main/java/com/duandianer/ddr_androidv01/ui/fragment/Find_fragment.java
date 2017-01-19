@@ -34,6 +34,8 @@ public class Find_fragment extends Fragment {
     private FindView mContentView;
     private FindViewAdapter mAdapter;
 
+    // TODO 优化布局，提高效率
+
     @Nullable
     @Override
     public View onCreateView(LayoutInflater inflater, @Nullable ViewGroup container, @Nullable Bundle savedInstanceState) {
